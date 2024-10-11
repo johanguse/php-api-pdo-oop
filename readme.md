@@ -19,7 +19,10 @@ This is a simple RESTful API for managing products. Follow the instructions belo
 2. Ensure you have PHP and MySQL installed on your system.
 3. Create a new MySQL database for this project.
 4. Update the database configuration in `config/database.php` with your database credentials.
-5. Import the database schema (if not using the seeder).
+5. Import the database schema (if not using the seeder). The schema is located in `seed.php` file line 30.
+
+> [!NOTE]
+> Remember to replace `http://localhost/your-project-folder` with the actual URL where your API is hosted.
 
 ## Running the Seeder
 
@@ -159,4 +162,5 @@ You can also use cURL to test the API from the command line:
    curl -X DELETE http://localhost/your-project-folder/api/v1/product/1
    ```
 
-Remember to replace `http://localhost/your-project-folder` with the actual URL where your API is hosted.
+> [!NOTE]
+> Remember to replace `http://localhost/your-project-folder` with the actual URL where your API is hosted.
